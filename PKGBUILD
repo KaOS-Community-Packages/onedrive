@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://github.com/abraunegg/onedrive"
 license=('GPL')
 source=("https://github.com/abraunegg/onedrive/archive/v$pkgver.tar.gz")
-depends=('curl' 'libnotify' 'sqlite' 'liblphobos')
+depends=('curl' 'libnotify' 'sqlite' 'ldc')
 makedepends=('dmd')
 
 build() {
